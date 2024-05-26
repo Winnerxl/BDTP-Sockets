@@ -68,8 +68,8 @@ public class TCPClient2 {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            scanner.close(); // Close scanner before exiting
-            System.exit(0); // Exit the client process
+            scanner.close();
+            System.exit(0);
         }
     }
 }
