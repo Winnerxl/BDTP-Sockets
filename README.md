@@ -17,8 +17,8 @@ The client component provides an interface for interacting with the server. User
 
 •	An IDE software is recommended to testing. (Tested on IntelliJ IDEA)
 
-# 3.1.	Running the Server
-# 3.1.1.	Running the Server Using Command Prompt/Terminal
+### 3.1.	Running the Server
+#### 3.1.1.	Running the Server Using Command Prompt/Terminal
 
 1.	Extract “TCPServer.java” from the zipped folder.
 2.	Open a terminal or command prompt.
@@ -27,7 +27,7 @@ The client component provides an interface for interacting with the server. User
 5.	Run the server using the following command: java TCPServer.java.
 6.	The server will start listening on the default ports TCP-14350 and TCP-14351.
 
-# 3.1.2.	Running the Server Using IntelliJ IDEA IDE
+#### 3.1.2.	Running the Server Using IntelliJ IDEA IDE
 1.	Extract the zip file’s contents into a folder.
 2.	Open IntelliJ IDEA, open the project folder, which contains the project files.
 3.	Ensure that the necessary dependencies are set up correctly in the IntelliJ project (such as JDK version).
@@ -35,23 +35,23 @@ The client component provides an interface for interacting with the server. User
 5.	Right-click on the TCPServer.java file and select “Run TCPServer.main()” from the context menu, or open the file and click on the green play button next to the main method in the TCPServer class to run the server.
 6.	The server will start listening on the default port TCP-14350 and TCP-14351.
 
-# 3.2.	Running the Clients
+### 3.2.	Running the Clients
 
-# 3.2.1.	Running the Clients Using Command Prompt/Terminal
+#### 3.2.1.	Running the Clients Using Command Prompt/Terminal
 1.	Extract “TCPClient1.java” and “TCPClient2.java” from the zipped folder.
 2.	Open a terminal or command prompt.
 3.	Navigate to the directory containing the client codes.
 4.	Compile the client code using the following command: javac TCPClientX.java
 5.	Run the corresponding client using the following command: java TCPClientX.java.
    
-# 3.2.2.	Running the Clients Using IntelliJ IDEA IDE
+#### 3.2.2.	Running the Clients Using IntelliJ IDEA IDE
 1.	Extract the zip file’s contents into a folder.
 2.	Open IntelliJ IDEA, open the project folder, which contains the project files.
 3.	Ensure that the necessary dependencies are set up correctly in the IntelliJ project (such as JDK version).
 4.	Locate the TCPClientX.java file in the project explorer.
 5.	Right-click on the TCPClientX.java file and select “Run TCPClientX.main()” from the context menu, or open the file and click on the green play button next to the main method in the TCPClient class to run the corresponding client.
 
-# 3.3.	Notes About Running Clients and Server
+### 3.3.	Notes About Running Clients and Server
 •	Ensure that the server is running before attempting to run the client.
 
 •	Modify the default port number in both the client and server code if necessary.
