@@ -53,7 +53,6 @@ class Client1Handler implements Runnable {
                         byte[] packetCopy = new byte[bytesRead];
                         System.arraycopy(packet, 0, packetCopy, 0, bytesRead);
                         buffer.put(packetCopy);
-                        // Notify client1 that packet was received
                         socket.getOutputStream().write(1);
                     }
 
@@ -92,7 +91,6 @@ class Client2Handler implements Runnable {
                         byte[] packet = buffer.take();
                         dos.write(packet);
                         dos.flush();
-                        // Acknowledge receipt of the packet
                         socket.getInputStream().read();
                     }
 
