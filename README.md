@@ -49,7 +49,7 @@ The client component provides an interface for interacting with the server. User
 2.	Open IntelliJ IDEA, open the project folder, which contains the project files.
 3.	Ensure that the necessary dependencies are set up correctly in the IntelliJ project (such as JDK version).
 4.	Locate the TCPClientX.java file in the project explorer.
-5.	Right-click on the TCPClientX.java file and select “Run TCPClientX.main()” from the context menu, or open the file and click on the green play button next to the main method in the TCPClient class to run the server.
+5.	Right-click on the TCPClientX.java file and select “Run TCPClientX.main()” from the context menu, or open the file and click on the green play button next to the main method in the TCPClient class to run the corresponding client.
 
 # 3.3.	Notes About Running Clients and Server
 •	Ensure that the server is running before attempting to run the client.
